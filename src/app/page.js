@@ -81,7 +81,7 @@ export default function Home() {
 
               {/* Backpack container (Responsive percentage width, NO shadow or backgrounds) */}
               <div className="mt-1 relative w-full flex justify-start pl-1 min-[360px]:pl-2">
-                <div className="w-[85%] min-[360px]:w-[90%] max-w-[130px] min-[360px]:max-w-[145px] min-[400px]:max-w-[160px] aspect-[3/4] relative animate-bag-entry">
+                <div className="w-[85%] min-[360px]:w-[90%] max-w-[130px] min-[360px]:max-w-[145px] min-[400px]:max-w-[160px] aspect-[3/4] relative">
                   <div className="w-full h-full relative animate-bag-float">
                     <Image
                       src="/skybags.png"
@@ -108,7 +108,7 @@ export default function Home() {
                   dangerouslySetInnerHTML={{
                     __html: `
                       <video
-                        src="/backpack_video.mp4"
+                        src="/video.mp4"
                         autoplay
                         loop
                         muted
@@ -132,7 +132,7 @@ export default function Home() {
           </div>
 
           {/* Our Products Section */}
-          <div className="mt-12 border-t border-black pt-8">
+          <div className="mt-[-16px] border-t border-black pt-0.5">
             <h2 className="text-left text-start text-[14px] font-bold tracking-widest text-black uppercase mb-5 font-sans">
               Our Products
             </h2>
@@ -140,109 +140,109 @@ export default function Home() {
               
               {/* Product 1 */}
               <div className="group cursor-pointer flex flex-col">
-                <div className="w-full aspect-square bg-[#F9F9F9] flex items-center justify-center p-4 relative border border-stone-200/40">
+                <div className="w-full aspect-square bg-[#F9F9F9] flex items-center justify-center p-4 relative border border-black">
                   <div className="w-[80%] h-[80%] relative transform group-hover:scale-105 transition-transform duration-500 ease-out">
                     <Image
-                      src="/skybags.png"
-                      alt="Style Sack Classic Black"
+                      src="/transit_messenger_bag.png"
+                      alt="Style Sack Leather Messenger"
                       fill
                       sizes="(max-w-360px) 100px, 150px"
                       className="object-contain mix-blend-multiply"
                     />
                   </div>
                 </div>
-                <h3 className="text-left text-start text-[15px] font-semibold text-black mt-3 font-sans group-hover:text-stone-600 transition-colors">
-                  Classic Black
+                <h3 className="text-center text-[15px] font-semibold text-black mt-3 font-sans group-hover:text-stone-600 transition-colors">
+                  Leather Messenger
                 </h3>
               </div>
 
               {/* Product 2 */}
               <div className="group cursor-pointer flex flex-col">
-                <div className="w-full aspect-square bg-[#F9F9F9] flex items-center justify-center p-4 relative border border-stone-200/40">
+                <div className="w-full aspect-square bg-[#F9F9F9] flex items-center justify-center p-4 relative border border-black">
                   <div className="w-[80%] h-[80%] relative transform group-hover:scale-105 transition-transform duration-500 ease-out">
                     <Image
-                      src="/commuter_sling_bag.png"
-                      alt="Style Sack Commuter Sling"
+                      src="/brown_duffel_bag.png"
+                      alt="Style Sack Brown Leather Duffel"
                       fill
                       sizes="(max-w-360px) 100px, 150px"
                       className="object-contain mix-blend-multiply"
                     />
                   </div>
                 </div>
-                <h3 className="text-left text-start text-[15px] font-semibold text-black mt-3 font-sans group-hover:text-stone-600 transition-colors">
-                  Commuter Sling
+                <h3 className="text-center text-[15px] font-semibold text-black mt-3 font-sans group-hover:text-stone-600 transition-colors">
+                  Brown Leather Duffel
                 </h3>
               </div>
 
               {/* Product 3 */}
               <div className="group cursor-pointer flex flex-col">
-                <div className="w-full aspect-square bg-[#F9F9F9] flex items-center justify-center p-4 relative border border-stone-200/40">
+                <div className="w-full aspect-square bg-[#F9F9F9] flex items-center justify-center p-4 relative border border-black">
                   <div className="w-[80%] h-[80%] relative transform group-hover:scale-105 transition-transform duration-500 ease-out">
                     <Image
-                      src="/transit_messenger_bag.png"
-                      alt="Style Sack Transit Messenger"
+                      src="/brown_sling_bag.png"
+                      alt="Style Sack Brown Leather Sling"
                       fill
                       sizes="(max-w-360px) 100px, 150px"
                       className="object-contain mix-blend-multiply"
                     />
                   </div>
                 </div>
-                <h3 className="text-left text-start text-[15px] font-semibold text-black mt-3 font-sans group-hover:text-stone-600 transition-colors">
-                  Transit Messenger
+                <h3 className="text-center text-[15px] font-semibold text-black mt-3 font-sans group-hover:text-stone-600 transition-colors">
+                  Brown Leather Sling
                 </h3>
               </div>
 
               {/* Product 4 */}
               <div className="group cursor-pointer flex flex-col">
-                <div className="w-full aspect-square bg-[#F9F9F9] flex items-center justify-center p-4 relative border border-stone-200/40">
+                <div className="w-full aspect-square bg-[#F9F9F9] flex items-center justify-center p-4 relative border border-black">
                   <div className="w-[80%] h-[80%] relative transform group-hover:scale-105 transition-transform duration-500 ease-out">
                     <Image
-                      src="/executive_duffel_bag.png"
-                      alt="Style Sack Executive Duffel"
+                      src="/men_wallet.png"
+                      alt="Style Sack Men's Leather Wallet"
                       fill
                       sizes="(max-w-360px) 100px, 150px"
                       className="object-contain mix-blend-multiply"
                     />
                   </div>
                 </div>
-                <h3 className="text-left text-start text-[15px] font-semibold text-black mt-3 font-sans group-hover:text-stone-600 transition-colors">
-                  Executive Duffel
+                <h3 className="text-center text-[15px] font-semibold text-black mt-3 font-sans group-hover:text-stone-600 transition-colors">
+                  Men's Leather Wallet
                 </h3>
               </div>
 
               {/* Product 5 */}
               <div className="group cursor-pointer flex flex-col">
-                <div className="w-full aspect-square bg-[#F9F9F9] flex items-center justify-center p-4 relative border border-stone-200/40">
+                <div className="w-full aspect-square bg-[#F9F9F9] flex items-center justify-center p-4 relative border border-black">
                   <div className="w-[80%] h-[80%] relative transform group-hover:scale-105 transition-transform duration-500 ease-out">
                     <Image
-                      src="/travel_backpack.png"
-                      alt="Style Sack Travel Backpack"
+                      src="/skybags.png"
+                      alt="Style Sack Classic Black Backpack"
                       fill
                       sizes="(max-w-360px) 100px, 150px"
                       className="object-contain mix-blend-multiply"
                     />
                   </div>
                 </div>
-                <h3 className="text-left text-start text-[15px] font-semibold text-black mt-3 font-sans group-hover:text-stone-600 transition-colors">
-                  Travel Backpack
+                <h3 className="text-center text-[15px] font-semibold text-black mt-3 font-sans group-hover:text-stone-600 transition-colors">
+                  Classic Black Backpack
                 </h3>
               </div>
 
               {/* Product 6 */}
               <div className="group cursor-pointer flex flex-col">
-                <div className="w-full aspect-square bg-[#F9F9F9] flex items-center justify-center p-4 relative border border-stone-200/40">
+                <div className="w-full aspect-square bg-[#F9F9F9] flex items-center justify-center p-4 relative border border-black">
                   <div className="w-[80%] h-[80%] relative transform group-hover:scale-105 transition-transform duration-500 ease-out">
                     <Image
-                      src="/laptop_sleeve.png"
-                      alt="Style Sack Laptop Sleeve"
+                      src="/brown_handbag.png"
+                      alt="Style Sack Brown Leather Handbag"
                       fill
                       sizes="(max-w-360px) 100px, 150px"
                       className="object-contain mix-blend-multiply"
                     />
                   </div>
                 </div>
-                <h3 className="text-left text-start text-[15px] font-semibold text-black mt-3 font-sans group-hover:text-stone-600 transition-colors">
-                  Laptop Sleeve
+                <h3 className="text-center text-[15px] font-semibold text-black mt-3 font-sans group-hover:text-stone-600 transition-colors">
+                  Brown Leather Handbag
                 </h3>
               </div>
 
