@@ -132,8 +132,8 @@ export default function Home() {
           </div>
 
           {/* Our Products Section */}
-          <div className="mt-12 border-t border-stone-100 pt-8">
-            <h2 className="text-left text-start text-[14px] font-bold tracking-widest text-stone-400 uppercase mb-5 font-sans">
+          <div className="mt-12 border-t border-black pt-8">
+            <h2 className="text-left text-start text-[14px] font-bold tracking-widest text-black uppercase mb-5 font-sans">
               Our Products
             </h2>
             <div className="grid grid-cols-2 gap-x-4 gap-y-8">
@@ -154,9 +154,6 @@ export default function Home() {
                 <h3 className="text-left text-start text-[15px] font-semibold text-black mt-3 font-sans group-hover:text-stone-600 transition-colors">
                   Classic Black
                 </h3>
-                <p className="text-left text-start text-[13px] text-stone-500 mt-0.5 font-sans">
-                  $129.00
-                </p>
               </div>
 
               {/* Product 2 */}
@@ -164,20 +161,17 @@ export default function Home() {
                 <div className="w-full aspect-square bg-[#F9F9F9] flex items-center justify-center p-4 relative border border-stone-200/40">
                   <div className="w-[80%] h-[80%] relative transform group-hover:scale-105 transition-transform duration-500 ease-out">
                     <Image
-                      src="/skybags.png"
-                      alt="Style Sack Commuter Pro"
+                      src="/commuter_sling_bag.png"
+                      alt="Style Sack Commuter Sling"
                       fill
                       sizes="(max-w-360px) 100px, 150px"
-                      className="object-contain mix-blend-multiply filter hue-rotate-15 brightness-95"
+                      className="object-contain mix-blend-multiply"
                     />
                   </div>
                 </div>
                 <h3 className="text-left text-start text-[15px] font-semibold text-black mt-3 font-sans group-hover:text-stone-600 transition-colors">
-                  Commuter Pro
+                  Commuter Sling
                 </h3>
-                <p className="text-left text-start text-[13px] text-stone-500 mt-0.5 font-sans">
-                  $149.00
-                </p>
               </div>
 
               {/* Product 3 */}
@@ -185,20 +179,17 @@ export default function Home() {
                 <div className="w-full aspect-square bg-[#F9F9F9] flex items-center justify-center p-4 relative border border-stone-200/40">
                   <div className="w-[80%] h-[80%] relative transform group-hover:scale-105 transition-transform duration-500 ease-out">
                     <Image
-                      src="/skybags.png"
-                      alt="Style Sack Transit Pack"
+                      src="/transit_messenger_bag.png"
+                      alt="Style Sack Transit Messenger"
                       fill
                       sizes="(max-w-360px) 100px, 150px"
-                      className="object-contain mix-blend-multiply filter contrast-125"
+                      className="object-contain mix-blend-multiply"
                     />
                   </div>
                 </div>
                 <h3 className="text-left text-start text-[15px] font-semibold text-black mt-3 font-sans group-hover:text-stone-600 transition-colors">
-                  Transit Pack
+                  Transit Messenger
                 </h3>
-                <p className="text-left text-start text-[13px] text-stone-500 mt-0.5 font-sans">
-                  $119.00
-                </p>
               </div>
 
               {/* Product 4 */}
@@ -206,20 +197,17 @@ export default function Home() {
                 <div className="w-full aspect-square bg-[#F9F9F9] flex items-center justify-center p-4 relative border border-stone-200/40">
                   <div className="w-[80%] h-[80%] relative transform group-hover:scale-105 transition-transform duration-500 ease-out">
                     <Image
-                      src="/skybags.png"
-                      alt="Style Sack Executive Pack"
+                      src="/executive_duffel_bag.png"
+                      alt="Style Sack Executive Duffel"
                       fill
                       sizes="(max-w-360px) 100px, 150px"
-                      className="object-contain mix-blend-multiply filter saturate-50"
+                      className="object-contain mix-blend-multiply"
                     />
                   </div>
                 </div>
                 <h3 className="text-left text-start text-[15px] font-semibold text-black mt-3 font-sans group-hover:text-stone-600 transition-colors">
-                  Executive Pack
+                  Executive Duffel
                 </h3>
-                <p className="text-left text-start text-[13px] text-stone-500 mt-0.5 font-sans">
-                  $179.00
-                </p>
               </div>
 
               {/* Product 5 */}
@@ -227,20 +215,17 @@ export default function Home() {
                 <div className="w-full aspect-square bg-[#F9F9F9] flex items-center justify-center p-4 relative border border-stone-200/40">
                   <div className="w-[80%] h-[80%] relative transform group-hover:scale-105 transition-transform duration-500 ease-out">
                     <Image
-                      src="/skybags.png"
-                      alt="Style Sack Everyday Mini"
+                      src="/travel_backpack.png"
+                      alt="Style Sack Travel Backpack"
                       fill
                       sizes="(max-w-360px) 100px, 150px"
-                      className="object-contain mix-blend-multiply filter brightness-90 saturate-150"
+                      className="object-contain mix-blend-multiply"
                     />
                   </div>
                 </div>
                 <h3 className="text-left text-start text-[15px] font-semibold text-black mt-3 font-sans group-hover:text-stone-600 transition-colors">
-                  Everyday Mini
+                  Travel Backpack
                 </h3>
-                <p className="text-left text-start text-[13px] text-stone-500 mt-0.5 font-sans">
-                  $89.00
-                </p>
               </div>
 
               {/* Product 6 */}
@@ -248,20 +233,17 @@ export default function Home() {
                 <div className="w-full aspect-square bg-[#F9F9F9] flex items-center justify-center p-4 relative border border-stone-200/40">
                   <div className="w-[80%] h-[80%] relative transform group-hover:scale-105 transition-transform duration-500 ease-out">
                     <Image
-                      src="/skybags.png"
-                      alt="Style Sack Professional Lite"
+                      src="/laptop_sleeve.png"
+                      alt="Style Sack Laptop Sleeve"
                       fill
                       sizes="(max-w-360px) 100px, 150px"
-                      className="object-contain mix-blend-multiply filter contrast-90 brightness-110"
+                      className="object-contain mix-blend-multiply"
                     />
                   </div>
                 </div>
                 <h3 className="text-left text-start text-[15px] font-semibold text-black mt-3 font-sans group-hover:text-stone-600 transition-colors">
-                  Professional Lite
+                  Laptop Sleeve
                 </h3>
-                <p className="text-left text-start text-[13px] text-stone-500 mt-0.5 font-sans">
-                  $109.00
-                </p>
               </div>
 
             </div>
