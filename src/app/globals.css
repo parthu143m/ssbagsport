@@ -22,14 +22,17 @@
 html,
 body {
   scroll-behavior: smooth;
-  scrollbar-width: none;        /* Firefox */
-  -ms-overflow-style: none;     /* IE/Edge */
+  scrollbar-width: none;
+  /* Firefox */
+  -ms-overflow-style: none;
+  /* IE/Edge */
 }
 
 html::-webkit-scrollbar,
 body::-webkit-scrollbar,
 *::-webkit-scrollbar {
-  display: none;                /* Chrome, Safari, iOS Safari */
+  display: none;
+  /* Chrome, Safari, iOS Safari */
   width: 0;
   height: 0;
 }
@@ -40,7 +43,25 @@ body {
   font-family: var(--font-outfit), sans-serif;
   min-height: 100vh;
   margin: 0;
-  -webkit-overflow-scrolling: touch; /* smooth momentum scroll on iOS */
+  -webkit-overflow-scrolling: touch;
+  /* smooth momentum scroll on iOS */
+}
+
+/* Fix mobile tap: remove 300ms delay and ensure touch events fire on iOS Safari */
+a,
+button,
+[role="button"] {
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: transparent;
+  cursor: pointer;
+}
+
+/* Ensure user-select: none never blocks pointer events on interactive elements */
+a,
+button {
+  pointer-events: auto !important;
+  user-select: none;
+  -webkit-user-select: none;
 }
 
 @keyframes slideUp {
@@ -48,6 +69,7 @@ body {
     transform: translateY(180px);
     opacity: 0;
   }
+
   100% {
     transform: translateY(0);
     opacity: 1;
@@ -55,9 +77,12 @@ body {
 }
 
 @keyframes float {
-  0%, 100% {
+
+  0%,
+  100% {
     transform: translateY(0) rotate(-15deg);
   }
+
   50% {
     transform: translateY(-8px) rotate(-13deg);
   }
