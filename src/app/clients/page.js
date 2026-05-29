@@ -104,7 +104,7 @@ function StarRating({ rating }) {
   );
 }
 
-function ClientCard({ client }) {
+function ClientCard({ client, isPriority }) {
   return (
     <div className="bg-white border-t border-stone-200 pt-6 pb-6">
       {/* Logo */}
@@ -161,6 +161,7 @@ function ClientCard({ client }) {
                 fill
                 className="object-contain"
                 sizes="200px"
+                priority={isPriority}
               />
             </div>
 
@@ -245,6 +246,7 @@ export default function ClientsPage() {
                   width={80}
                   height={80}
                   className="object-contain w-full h-full pointer-events-none"
+                  priority
                 />
               </div>
             ))}
@@ -255,7 +257,7 @@ export default function ClientsPage() {
         <main className="flex flex-col px-5 pb-8">
           {clients.map((client, index) => (
             <div key={client.id}>
-              <ClientCard client={client} />
+              <ClientCard client={client} isPriority={index === 0} />
 
               {index < clients.length - 1 && (
                 <div className="h-[1px] bg-stone-100" />
