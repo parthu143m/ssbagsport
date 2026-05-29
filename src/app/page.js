@@ -131,6 +131,142 @@ export default function Home() {
 
           </div>
 
+          {/* Our Products Section */}
+          <div className="mt-12 border-t border-stone-100 pt-8">
+            <h2 className="text-left text-start text-[14px] font-bold tracking-widest text-stone-400 uppercase mb-5 font-sans">
+              Our Products
+            </h2>
+            <div className="grid grid-cols-2 gap-x-4 gap-y-8">
+              
+              {/* Product 1 */}
+              <div className="group cursor-pointer flex flex-col">
+                <div className="w-full aspect-square bg-[#F9F9F9] flex items-center justify-center p-4 relative border border-stone-200/40">
+                  <div className="w-[80%] h-[80%] relative transform group-hover:scale-105 transition-transform duration-500 ease-out">
+                    <Image
+                      src="/skybags.png"
+                      alt="Style Sack Classic Black"
+                      fill
+                      sizes="(max-w-360px) 100px, 150px"
+                      className="object-contain mix-blend-multiply"
+                    />
+                  </div>
+                </div>
+                <h3 className="text-left text-start text-[15px] font-semibold text-black mt-3 font-sans group-hover:text-stone-600 transition-colors">
+                  Classic Black
+                </h3>
+                <p className="text-left text-start text-[13px] text-stone-500 mt-0.5 font-sans">
+                  $129.00
+                </p>
+              </div>
+
+              {/* Product 2 */}
+              <div className="group cursor-pointer flex flex-col">
+                <div className="w-full aspect-square bg-[#F9F9F9] flex items-center justify-center p-4 relative border border-stone-200/40">
+                  <div className="w-[80%] h-[80%] relative transform group-hover:scale-105 transition-transform duration-500 ease-out">
+                    <Image
+                      src="/skybags.png"
+                      alt="Style Sack Commuter Pro"
+                      fill
+                      sizes="(max-w-360px) 100px, 150px"
+                      className="object-contain mix-blend-multiply filter hue-rotate-15 brightness-95"
+                    />
+                  </div>
+                </div>
+                <h3 className="text-left text-start text-[15px] font-semibold text-black mt-3 font-sans group-hover:text-stone-600 transition-colors">
+                  Commuter Pro
+                </h3>
+                <p className="text-left text-start text-[13px] text-stone-500 mt-0.5 font-sans">
+                  $149.00
+                </p>
+              </div>
+
+              {/* Product 3 */}
+              <div className="group cursor-pointer flex flex-col">
+                <div className="w-full aspect-square bg-[#F9F9F9] flex items-center justify-center p-4 relative border border-stone-200/40">
+                  <div className="w-[80%] h-[80%] relative transform group-hover:scale-105 transition-transform duration-500 ease-out">
+                    <Image
+                      src="/skybags.png"
+                      alt="Style Sack Transit Pack"
+                      fill
+                      sizes="(max-w-360px) 100px, 150px"
+                      className="object-contain mix-blend-multiply filter contrast-125"
+                    />
+                  </div>
+                </div>
+                <h3 className="text-left text-start text-[15px] font-semibold text-black mt-3 font-sans group-hover:text-stone-600 transition-colors">
+                  Transit Pack
+                </h3>
+                <p className="text-left text-start text-[13px] text-stone-500 mt-0.5 font-sans">
+                  $119.00
+                </p>
+              </div>
+
+              {/* Product 4 */}
+              <div className="group cursor-pointer flex flex-col">
+                <div className="w-full aspect-square bg-[#F9F9F9] flex items-center justify-center p-4 relative border border-stone-200/40">
+                  <div className="w-[80%] h-[80%] relative transform group-hover:scale-105 transition-transform duration-500 ease-out">
+                    <Image
+                      src="/skybags.png"
+                      alt="Style Sack Executive Pack"
+                      fill
+                      sizes="(max-w-360px) 100px, 150px"
+                      className="object-contain mix-blend-multiply filter saturate-50"
+                    />
+                  </div>
+                </div>
+                <h3 className="text-left text-start text-[15px] font-semibold text-black mt-3 font-sans group-hover:text-stone-600 transition-colors">
+                  Executive Pack
+                </h3>
+                <p className="text-left text-start text-[13px] text-stone-500 mt-0.5 font-sans">
+                  $179.00
+                </p>
+              </div>
+
+              {/* Product 5 */}
+              <div className="group cursor-pointer flex flex-col">
+                <div className="w-full aspect-square bg-[#F9F9F9] flex items-center justify-center p-4 relative border border-stone-200/40">
+                  <div className="w-[80%] h-[80%] relative transform group-hover:scale-105 transition-transform duration-500 ease-out">
+                    <Image
+                      src="/skybags.png"
+                      alt="Style Sack Everyday Mini"
+                      fill
+                      sizes="(max-w-360px) 100px, 150px"
+                      className="object-contain mix-blend-multiply filter brightness-90 saturate-150"
+                    />
+                  </div>
+                </div>
+                <h3 className="text-left text-start text-[15px] font-semibold text-black mt-3 font-sans group-hover:text-stone-600 transition-colors">
+                  Everyday Mini
+                </h3>
+                <p className="text-left text-start text-[13px] text-stone-500 mt-0.5 font-sans">
+                  $89.00
+                </p>
+              </div>
+
+              {/* Product 6 */}
+              <div className="group cursor-pointer flex flex-col">
+                <div className="w-full aspect-square bg-[#F9F9F9] flex items-center justify-center p-4 relative border border-stone-200/40">
+                  <div className="w-[80%] h-[80%] relative transform group-hover:scale-105 transition-transform duration-500 ease-out">
+                    <Image
+                      src="/skybags.png"
+                      alt="Style Sack Professional Lite"
+                      fill
+                      sizes="(max-w-360px) 100px, 150px"
+                      className="object-contain mix-blend-multiply filter contrast-90 brightness-110"
+                    />
+                  </div>
+                </div>
+                <h3 className="text-left text-start text-[15px] font-semibold text-black mt-3 font-sans group-hover:text-stone-600 transition-colors">
+                  Professional Lite
+                </h3>
+                <p className="text-left text-start text-[13px] text-stone-500 mt-0.5 font-sans">
+                  $109.00
+                </p>
+              </div>
+
+            </div>
+          </div>
+
           {/* Simple footer for layout alignment */}
           <footer className="pt-4 mt-6 border-t border-stone-100 flex justify-between text-[10px] text-stone-400">
             <span>© Style sack.</span>
